@@ -8,7 +8,7 @@
 var http = require("http");
 var port = 3000;
 var request = require("request");
-var url = "http://graph.facebook.com/Boo/photos?type=uploaded";
+var url = "http://graph.facebook.com/NTU.ImWhatIM/photos?type=uploaded";
 
 http.createServer(function (req, res) {
   res.writeHeader(200, {"Content-Type": "text/html"});
